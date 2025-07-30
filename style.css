@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f0f4f8 0%, #d9e7fa 100%);
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #2a5298;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #2a5298;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #1e3c72;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(42, 82, 152, 0.08);
+    padding: 32px;
+}
+
+button, .btn {
+    background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+button:hover, .btn:hover {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+input, textarea, select {
+    border: 1px solid #b0c4de;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #2a5298;
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #f0f4f8;
+}
+::-webkit-scrollbar-thumb {
+    background: #b0c4de;
+    border-radius: 4px;
+}
